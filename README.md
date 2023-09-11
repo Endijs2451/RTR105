@@ -1,5 +1,5 @@
 # RTR105
-Studiju kursa Datormācība (pamatkurss) elektroniskā ķēde
+Studiju kursa Datormācība (pamatkurss) elektroniskā ķēde  
 Strādāsim Linux operētājsistēmā
   
   ## 1.nodarbība  
