@@ -12,5 +12,5 @@ Strādāsim Linux operētājsistēmā
   - pwd _- Izvada pilno direktorijas atrašanās vietu, kurā atrodas/darbojas lietotājs_
   - man pwd _- Paskaidro pwd komandu_
   - whoami _- Izvada šobrīd esošās operētājsistēmas lietotāju_
-  - history _- Izvada secībā visas iepriekš izpildītās komandas tā brīža sesijā _
+  - history _- Izvada secībā visas iepriekš izpildītās komandas tā brīža sesijā_
 
