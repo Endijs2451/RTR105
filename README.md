@@ -14,3 +14,6 @@ Strādāsim Linux operētājsistēmā
   - whoami _- Izvada šobrīd esošās operētājsistēmas lietotāju_
   - history _- Izvada secībā visas iepriekš izpildītās komandas tā brīža sesijā_
 
+  ## 2.nodarbība  
+      
+  ### Linux failu komandas
