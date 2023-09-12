@@ -40,3 +40,26 @@ Strādāsim Linux operētājsistēmā
   - **history > history_20230912_02.txt** _- Izveido failu no history datiem_
     
   Ja fails sākas ar ".", tad tas ir apslēpts lietotājam
+
+   126  whereis pwd
+  127  echo $PATH
+  128  nano mans_pirmais_shell_skripts.sh
+  129  ls -lt
+  130  cat mans_pirmais_shell_skripts.sh 
+  131  ls -lt
+  132* 
+  133  ls -lt
+  134  /home/user/mans_pirmais_shell_skripts.sh 
+  135  cd ABC/
+  136  cat c.txt
+  137  cd ..
+  138  echo $PATH
+  139  mv mans_pirmais_shell_skripts.sh  /bin/
+  140  mv mans_pirmais_shell_skripts.sh  /usr/
+  141  supo
+  142  sudo
+  143  echo $PATH
+  144  PATH=$PATH:~
+  145  echo $PATH
+  146  mans_pirmais_shell_skripts.sh 
+
