@@ -25,7 +25,6 @@ Strādāsim Linux operētājsistēmā
   - **tree** _- Izvada visus operētājsistēmas failus grafiski_
   - **cd** _- Pārveito lietotāju starp direktorijām_
   - **cd ..** _- Ved dziļāk lietotāju direktorijās, mapi augstāk_
-  - **cd ~** _- Aizved "mājas" direktorijā
   - **mkdir ABC** _- Izveido direktoriju/mapi_
   - **rmdir ABC** _- Dzēš direktoriju/mapi_
   - **echo 12345 > text_1.txt** _- Ievada failā lietotāja tekstu_
