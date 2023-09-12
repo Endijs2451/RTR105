@@ -15,37 +15,37 @@ Strādāsim Linux operētājsistēmā
   ## 2.nodarbība   
       
   ### Linux failu komandas
-- pwd _- Izvada pilno direktorijas atrašanās vietu, kurā atrodas/darbojas lietotājs_
-- who  _- Izvada visus lietotājus_
-- ls _- Izvada direktorijas sastāvu/failus_
-- ls -lt _- "-lt" izvada failus, dilstošā secībā pēc pēdējā rediģēšanas laika_
-- ls -lt ABC _- Izvada prasīto konkrētajai mapei_
-- ls -alt _- Pievienotais "a" izvada visus mapes failus, arī apslēptos_
-- ls Desktop/ _- Izvada failus attiecīgajai mapei_
-- tree _- Izvada visus operētājsistēmas failus grafiski_
-- cd /Music
-- cd /home/user/Music
-- cd .
-- cd ..
-- cd cs
-- cd root
-- cd /home
-- cd ./home/
-- cd /home/user
-- cd /
-- cd ~
-- cd ~/Documents/
-- mkdir ABC
-- rmdir ABC
-- echo 12345 > text_1.txt
-- hexdump -C text_1.txt 
-- echo 6789 >> text_1.txt
-- cat text_1.txt 
-- echo -e "12345/n6789"
-- echo -e "12345\n6789" > text_2.txt
-- cp text_1.txt CDE/
-- mv CDE/text_1.txt CDE/text_3.txt 
-- rm text_*.txt
-- history > history_20230912_02.txt
+  - pwd _- Izvada pilno direktorijas atrašanās vietu, kurā atrodas/darbojas lietotājs_
+  - who  _- Izvada visus lietotājus_
+  - ls _- Izvada direktorijas sastāvu/failus_
+  - ls -lt _- "-lt" izvada failus, dilstošā secībā pēc pēdējā rediģēšanas laika_
+  - ls -lt ABC _- Izvada prasīto konkrētajai mapei_
+  - ls -alt _- Pievienotais "a" izvada visus mapes failus, arī apslēptos_
+  - ls Desktop/ _- Izvada failus attiecīgajai mapei_
+  - tree _- Izvada visus operētājsistēmas failus grafiski_
+  - cd /Music
+  - cd /home/user/Music
+  - cd .
+  - cd ..
+  - cd cs
+  - cd root
+  - cd /home
+  - cd ./home/
+  - cd /home/user
+  - cd /
+  - cd ~
+  - cd ~/Documents/
+  - mkdir ABC _- Izveido direktoriju/mapi_
+  - rmdir ABC _- Dzēš direktoriju/mapi_
+  - echo 12345 > text_1.txt _- Ievada failā lietotāja tekstu_
+  -   - echo 6789 >> text_1.txt _- Pievieno failā lietotāja tekstu_
+  -   - cat text_1.txt _- Izvada faila sastāvu_
+  - hexdump -C text_1.txt _- Izvada faila sastāvu skaitliski_
+  - echo -e "12345/n6789" _- Ievada failā tekstu ar tā rediģējamām īpašībām - piem. space, enter_
+  - echo -e "12345\n6789" > text_2.txt _- Doto aizsūta uz failu_
+  - cp text_1.txt CDE/  _- Copē failu: kuru? => Uz kurieni?_
+  - mv CDE/text_1.txt CDE/text_3.txt _- Pārvieto vai maina nosaukumu failam: kuru? => Uz kurieni?_
+  - rm text_*.txt _- Dzēš failu, zvaigznīte pieņem jebkādus simbolus nosaukumā_
+  - history > history_20230912_02.txt _- Izveido failu no history datiem_
     
   Ja fails sākas ar ".", tad tas ir apslēpts lietotājam
