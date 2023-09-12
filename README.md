@@ -27,6 +27,7 @@ Strādāsim Linux operētājsistēmā
   - **cd ..** _- Ved dziļāk lietotāju direktorijās, mapi augstāk_
   - **mkdir ABC** _- Izveido direktoriju/mapi_
   - **rmdir ABC** _- Dzēš direktoriju/mapi_
+  - **touch text_1.txt** _- Izveido failu_
   - **echo 12345 > text_1.txt** _- Ievada failā lietotāja tekstu_
   - **echo 6789 >> text_1.txt** _- Pievieno failā lietotāja tekstu_
   - **cat text_1.txt** _- Izvada faila sastāvu_
