@@ -23,23 +23,14 @@ Strādāsim Linux operētājsistēmā
   - ls -alt _- Pievienotais "a" izvada visus mapes failus, arī apslēptos_
   - ls Desktop/ _- Izvada failus attiecīgajai mapei_
   - tree _- Izvada visus operētājsistēmas failus grafiski_
-  - cd /Music
-  - cd /home/user/Music
-  - cd .
-  - cd ..
-  - cd cs
-  - cd root
-  - cd /home
-  - cd ./home/
-  - cd /home/user
-  - cd /
-  - cd ~
-  - cd ~/Documents/
+  - cd _- Pārveito lietotāju starp direktorijām_
+  - cd .. _- Ved dziļāk lietotāju direktorijās, mapi augstāk_
+  - cd ~ _- Aizved "mājas" direktorijā
   - mkdir ABC _- Izveido direktoriju/mapi_
   - rmdir ABC _- Dzēš direktoriju/mapi_
   - echo 12345 > text_1.txt _- Ievada failā lietotāja tekstu_
-  -   - echo 6789 >> text_1.txt _- Pievieno failā lietotāja tekstu_
-  -   - cat text_1.txt _- Izvada faila sastāvu_
+  - echo 6789 >> text_1.txt _- Pievieno failā lietotāja tekstu_
+  - cat text_1.txt _- Izvada faila sastāvu_
   - hexdump -C text_1.txt _- Izvada faila sastāvu skaitliski_
   - echo -e "12345/n6789" _- Ievada failā tekstu ar tā rediģējamām īpašībām - piem. space, enter_
   - echo -e "12345\n6789" > text_2.txt _- Doto aizsūta uz failu_
