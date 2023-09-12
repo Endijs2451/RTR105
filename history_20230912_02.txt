@@ -1,0 +1,109 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  who
+    5  pwd
+    6  ls
+    7  man ls
+    8  ls -l
+    9  ls -l -t
+   10  ls -a
+   11  ls -alt
+   12  pwd
+   13  ls
+   14  ls Desktop/
+   15  ls -la Desktop/
+   16  ls -la Documents/
+   17  tree
+   18  cd /Music
+   19  cd /Music 
+   20  cd /media
+   21  cd /home/user
+   22  ls
+   23  cd /home/user/Music
+   24  ls -la
+   25  cd .
+   26  cd ..
+   27  pwd
+   28  cd..
+   29  cd ..
+   30  ls -la
+   31  cd cs
+   32  cd ..
+   33  ls
+   34  ls -la
+   35  cd .
+   36  cd ..
+   37  pwd
+   38  ls
+   39  cd root
+   40  cd /home
+   41  cd ..
+   42  cd ./home/
+   43  home/user
+   44  cd /home/user
+   45  pwd
+   46  cd /
+   47  cd /home/user
+   48  cd /
+   49  cd ~
+   50  cd ~/Documents/
+   51  cd 
+   52  ls -lt
+   53  mkdir ABC
+   54  ls -lt
+   55  ls -lt ACB/
+   56  ls -lt ACB
+   57  ls -lt ABC
+   58  rmdir ABC
+   59  ls -lt
+   60  touch abc.txt
+   61  ls -lt
+   62  echo La-la-lals -lt
+   63  echo La-la-laecho La-la-lals -lt!
+   64  echo 12345 >text_1.txt
+   65  ls -lt
+   66  cat text_1.txt 
+   67  hexdump -C text_1.txt 
+   68  echo 67890 >text_1.txt
+   69  cat text_1.txt 
+   70  echo 12345 >text_1.txt
+   71  echo 12345 >>text_1.txt
+   72  cat text_1.txt 
+   73  echo 6789 >>text_1.txt
+   74  cat text_1.txt 
+   75  hexdump -C text_1.txt 
+   76  man echo
+   77  echo -e "12345/n6789"
+   78  echo -e "12345/n/t6789"
+   79  echo -e "12345\n\t6789"
+   80  echo -e "12345\r6789"
+   81  cat text_2.txt 
+   82  history
+   83  echo -e "12345\n6789" >text_2.txt
+   84  cat text_2.txt 
+   85  hexdump -C text_2.txt 
+   86  ls -lt
+   87  mkdir CDE
+   88  ls -lt
+   89  cp text_1.txt CDE/
+   90  pwd
+   91  ls -lt CDE/
+   92  mv CDE/text_1.txt CDE/text_3.txt 
+   93  ls -lt CDE/
+   94  ls -lt 
+   95  mv abc.txt abc.dat
+   96  ls -lt 
+   97  rm text_*.txt
+   98  ls -lt 
+   99  rm abc*
+  100  ls -lt 
+  101  touch abc.dat
+  102  touch agfhgc.dot
+  103  touch agfhgcgfhghfghxhg.dot
+  104  rm a*.dot
+  105  ls -lt 
+  106  history
+  107  history > history 20230912_02.txt
+  108  ls -lt 
+  109  history > history_20230912_02.txt
