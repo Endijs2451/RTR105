@@ -3,5 +3,6 @@ git add .
 git config --global user.name Endijs2451
 git config --global user.email endijsgraudins@gmail.com
 git commit  -m "Class_4a"
+git pull
 git push origin main
 
