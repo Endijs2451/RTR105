@@ -1,0 +1,32 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git --version
+    4  man git
+    5  git clone https://github.com/Endijs2451/RTR105
+    6  ls -lt
+    7  ls -lt RTR105
+    8  ls -lt |grep RTR105
+    9  rm dir RTR105
+   10  rmdir RTR105
+   11  rm RTR105
+   12  rm -r RTR105
+   13* 
+   14  ls -lt
+   15  git clone https://github.com/Endijs2451/RTR105
+   16  ls -lt
+   17  pwd
+   18  cd RTR105/
+   19  ls -lt
+   20  ls -la
+   21  cd .git
+   22  ls
+   23  ls -lt
+   24  cat config
+   25  ls -lt
+   26  cat index
+   27  hexdump -C config
+   28  hexdump -C index
+   29  ls -lt
+   30  cd ..
+   31  history
+   32  history > history_20230912_03.txt 
