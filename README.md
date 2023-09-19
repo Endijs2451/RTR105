@@ -56,8 +56,7 @@ Strādāsim Linux operētājsistēmā
   138  echo $PATH
   139  mv mans_pirmais_shell_skripts.sh  /bin/
   140  mv mans_pirmais_shell_skripts.sh  /usr/
-  141  supo
-  142  sudo
+  chmod 754 git upload
   143  echo $PATH
   144  PATH=$PATH:~
   145  echo $PATH
