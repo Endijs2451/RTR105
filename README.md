@@ -55,7 +55,7 @@ Strādāsim Linux operētājsistēmā
        
   ## 4.nodarbība 
     
-   *_Saveino repozitoriju ar termināli/datoru: git clone https://github.com/Endijs2451/RTR105_
+   Saveino repozitoriju ar termināli/datoru: git clone https://github.com/Endijs2451/RTR105_
    
   ### C program komandas  
    -  nano first.c
