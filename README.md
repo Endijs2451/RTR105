@@ -69,3 +69,10 @@ Strādāsim Linux operētājsistēmā
    34  ./first.out
    54  diff first.out first_with_comments.out 
    81  gcc -Wall -save-temps second.c -o second.out 
+
+  ### Pozicionālās sistēmas:
+- BIN 0,1 - 2
+- OCT 0..7 - 8
+- DEC 0..9 - 10
+- HEX 0..9,A..F - 16
+  
