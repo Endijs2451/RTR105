@@ -62,4 +62,4 @@ Strādāsim Linux operētājsistēmā
   145  echo $PATH
   146  mans_pirmais_shell_skripts.sh 
 
-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
+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
