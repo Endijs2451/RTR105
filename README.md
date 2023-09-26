@@ -41,120 +41,31 @@ Strādāsim Linux operētājsistēmā
   - **rm text_*.txt** _- Dzēš failu, zvaigznīte pieņem jebkādus simbolus nosaukumā_
   - **history > history_20230912_02.txt** _- Izveido failu no history datiem_
     
-  Ja fails sākas ar ".", tad tas ir apslēpts lietotājam
-
-   126  whereis pwd
-  127  echo $PATH
-  128  nano mans_pirmais_shell_skripts.sh
-  129  ls -lt
-  130  cat mans_pirmais_shell_skripts.sh 
-  131  ls -lt
-  132* 
-  133  ls -lt
-  134  /home/user/mans_pirmais_shell_skripts.sh 
-  135  cd ABC/
-  136  cat c.txt
-  137  cd ..
-  138  echo $PATH
-  139  mv mans_pirmais_shell_skripts.sh  /bin/
-  140  mv mans_pirmais_shell_skripts.sh  /usr/
-  chmod 754 git upload
-  143  echo $PATH
-  144  PATH=$PATH:~
-  145  echo $PATH
-  146  mans_pirmais_shell_skripts.sh 
-
-
-git clone https://github.com/Endijs2451/RTR105
-    5  ls-lt
-    6  ls -lt
-    7  cd RTR105/
-    8  pwd
-    9  mkdir Class_05
-   10  ls -lt
-   11  cd Class_05/
-   12  pwd
-   13  tree
-   14  nano first.c
-   15  ls -lt
-   16  gcc first.c 
-   17  echo $?
-   18  ls -lt
-   19  ./a.out
-   20  echo $?
-   21  cat first.c 
+  *_Ja fails sākas ar ".", tad tas ir apslēpts lietotājam_  
+    
+  ## 3.nodarbība  
+  
+  ### Sript komandas  
+   - **whereis pwd**
+   - **echo $PATH**
+   - **nano mans_pirmais_shell_skripts.sh**
+   - **mv mans_pirmais_shell_skripts.sh  /bin/**
+   - **chmod 754 git upload**
+   - **PATH=$PATH:~**
+       
+  ## 4.nodarbība 
+    
+   *_Saveino repozitoriju ar termināli/datoru: git clone https://github.com/Endijs2451/RTR105_
+   
+  ### C program komandas  
+   -  nano first.c
+   -  gcc first.c 
+-  echo $?
+   - ./a.out
+   - cat first.c 
    22  cat a.out 
    23  gcc first.c first.out
-   24  man gcc
-   25  gcc first.c first.out -o
    26  gcc first.c -o  first.out 
-   27  rm *.out
-   28  ls -lt
-   29  history 
-   30  echo $?
-   31  nano first.c
-   32  gcc first.c -o  first.out 
-   33  ls -lt
    34  ./first.out
-   35  echo $/
-   36  echo $?
-   37  nano first.c
-   38  ls -lt
-   39  gcc first.c -o  first.out 
-   40  ./first.out
-   41  echo $?
-   42  ls -lt
-   43  nano first.c
-   44  gcc first.c -o  first.out 
-   45  ls -lt
-   46  echo $?
-   47  ./first.out
-   48  echo $?
-   49  cat first.c
-   50  cat first.out
-   51  nano first.c
-   52  gcc first.c -o  first_with_comments.out 
-   53  ls -lt
    54  diff first.out first_with_comments.out 
-   55  cat first.c
-   56  ./first.out
-   57  nano first.c
-   58  copy first.c second.c
-   59  cp first.c second.c
-   60  nano second.c 
-   61  gcc second.c -o second.out
-   62  echo $?
-   63  ls -lt
-   64  nano second.c 
-   65  gcc second.c -o second.out
-   66  ./second.out \
-   67  nano second.c 
-   68  gcc second.c -o second.out
-   69  ./second.out \
-   70  man echo
-   71  nano second.c 
-   72  gcc second.c -o second.out
-   73  ./second.out \
-   74  ./second.out 
-   75  echo $?
-   76  nano second.c 
-   77  ls -lt
-   78  rm *.out
-   79  ls -lt
-   80  man gcc
    81  gcc -Wall -save-temps second.c -o second.out 
-   82  ls -lt
-   83  cat second.i
-   84  cat second.s
-   85  cat second.o
-   86  ls -lt
-   87  history cd ..
-   88  cd..
-   89  cd ..
-   90  touch .gitignore
-   91  ls -lt
-   92  ls -lta
-   93  nano .gitinore
-   94  nano .gitignore
-   95  ls -lta
-   96  history > history_20230912_0_Class05.txt
