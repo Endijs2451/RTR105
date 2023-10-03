@@ -75,4 +75,9 @@ Strādāsim Linux operētājsistēmā
 - OCT 0..7 - 8
 - DEC 0..9 - 10
 - HEX 0..9,A..F - 16
-  
+
+
+
+  \t - tab
+  \n - enter
+  \a - space
