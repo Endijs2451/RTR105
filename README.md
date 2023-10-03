@@ -81,3 +81,6 @@ Strādāsim Linux operētājsistēmā
   \t - tab
   \n - enter
   \a - space
+  \v - enter+tab jeb jauna rindkopa
+  \r - izdzēš rindu
+  
