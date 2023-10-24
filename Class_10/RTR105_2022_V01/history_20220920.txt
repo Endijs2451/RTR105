@@ -1,0 +1,79 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  whereis ls
+    5  pwd
+    6  ls -lt /bin/ls
+    7  ls
+    8  ls /bin/ls
+    9  ls -l
+   10  ls -l /bin/ls
+   11  ls -l
+   12  ls -l /bin/ls
+   13  ls -lt /bin/ls
+   14  ls -l
+   15  ls -lt
+   16  ls -l /bin/ls
+   17  cd /bin
+   18  ls
+   19  ls -l
+   20  echo $0
+   21  ls -l
+   22  sh
+   23  echo $0
+   24  pwd
+   25  ls
+   26  ls -l
+   27  man cd
+   28  exit
+   29  nano
+   30  exit
+   31  cd RTR105_2022_V01/
+   32  nano git-upload 
+   33  cd
+   34  nano
+   35  nano text.sh
+   36  chromium-browser &
+   37  cd RTR105_2022_V01/
+   38  nano special_variable_test.sh
+   39  ls -lt
+   40  nano special_variable_test.sh
+   41  ls -lt
+   42  chmod 764 special_variable_test.sh 
+   43  ls -lt
+   44  echo $PATH
+   45  git-upload
+   46  history | grep PATH
+   47  echo $PATH
+   48  pwd
+   49  cd ..
+   50  ls -lt
+   51  rm special_variable_test.sh 
+   52  ls -lt
+   53  echo $PATH
+   54  PATH=$PATH:~
+   55  echo $PATH
+   56  whereis ls
+   57  ls -lt /bin
+   58  ls -lt /
+   59  ls -lt / | bin
+   60  ls -lt / | grep bin
+   61  cp RTR105_2022_V01/git-upload /bin/
+   62  whoami
+   63  whereis python
+   64  nano test.py
+   65  ls -lt
+   66  chnod 764 test.py 
+   67  chmod 764 test.py 
+   68  ls -lt
+   69  ./test.py 
+   70  nano test.py
+   71  ls -lt
+   72  cd RTR105_2022_V01/
+   73  ls -lt
+   74  mkdir PYTHON
+   75  mv ../test.py PYTHON/Hello_World_script.py
+   76  ls -lt
+   77  history > history_20220920.txt 
+   78  history 
+   79  history > history_20220920.txt 
