@@ -46,35 +46,35 @@ Strādāsim Linux operētājsistēmā
   ## 3.nodarbība  
   
   ### Sript komandas  
-   - **whereis pwd**
-   - **echo $PATH**
-   - **nano mans_pirmais_shell_skripts.sh**
-   - **mv mans_pirmais_shell_skripts.sh  /bin/**
-   - **chmod 754 git upload**
-   - **PATH=$PATH:~**
+   - **whereis pwd** - norāda kur atrodas pwd
+   - **echo $PATH** - parāda ceļu 
+   - **nano mans_pirmais_shell_skripts.sh** - radīt/rediģet pirmo skript failu
+   - **mv mans_pirmais_shell_skripts.sh  /bin/** - pārvieto failu  uz mapi
+   - **chmod 754 git upload** - pārveido prioritāti ar skaitīšanas sistēmu failam
+   - **PATH=$PATH:~** - nomaina galveno path
        
   ## 4.nodarbība 
     
-   Saveino repozitoriju ar termināli/datoru: git clone https://github.com/Endijs2451/RTR105_
+   Saveino repozitoriju ar termināli/datoru: **git clone https://github.com/Endijs2451/RTR105_**
    
   ### C program komandas  
    -  nano first.c
    -  gcc first.c 
--  echo $?
+   -  echo $?
    - ./a.out
    - cat first.c 
-   22  cat a.out 
-   23  gcc first.c first.out
-   26  gcc first.c -o  first.out 
-   34  ./first.out
-   54  diff first.out first_with_comments.out 
-   81  gcc -Wall -save-temps second.c -o second.out 
+   - cat a.out 
+   - gcc first.c first.out
+   - gcc first.c -o  first.out 
+   - ./first.out
+   - diff first.out first_with_comments.out 
+   - gcc -Wall -save-temps second.c -o second.out 
 
   ### Pozicionālās sistēmas:
-- BIN 0,1 - 2
-- OCT 0..7 - 8
-- DEC 0..9 - 10
-- HEX 0..9,A..F - 16
+  - BIN 0,1 - 2
+  - OCT 0..7 - 8
+  - DEC 0..9 - 10
+  - HEX 0..9,A..F - 16
 
 
 
