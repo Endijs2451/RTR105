@@ -1,6 +1,7 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā ķēde  
 Strādāsim Linux operētājsistēmā
+  
   #### Atslēga   
   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  
   
@@ -58,12 +59,12 @@ Strādāsim Linux operētājsistēmā
    Saveino repozitoriju ar termināli/datoru: **git clone https://github.com/Endijs2451/RTR105_**
    
   ### C program komandas  
-   - **nano first.c** - _izveido skript failu_
-   - **gcc first.c** - _automātiski izveido nepieicešamos trigger failus_ 
-   - **echo $?** - _pārbauda darbības iznākumu_
-   - **./a.out** - _izpilda izpildāmo failu_
-   - **cat first.c** -_izvada faila saturu TXT_
-   - **gcc -Wall -save-temps second.c -o second.out** -_izpilda darbību pārdēvējot izpildāmo failu_
+   - **nano first.c**  - _izveido skript failu_
+   - **gcc first.c**  - _automātiski izveido nepieicešamos trigger failus_ 
+   - **echo $?**  - _pārbauda darbības iznākumu_
+   - **./a.out**  - _izpilda izpildāmo failu_
+   - **cat first.c**  - _izvada faila saturu TXT_
+   - **gcc -Wall -save-temps second.c -o second.out**  - _izpilda darbību pārdēvējot izpildāmo failu_
 
   ### Pozicionālās sistēmas:
   - BIN 0,1 - 2
@@ -72,10 +73,10 @@ Strādāsim Linux operētājsistēmā
   - HEX 0..9,A..F - 16
 
 
-
-  \t - tab
-  \n - enter
-  \a - space
-  \v - enter+tab jeb jauna rindkopa
-  \r - izdzēš rindu
+### Pozicionēšanas funkcijas
+  - \t - tab
+  - \n - enter
+  - \a - space
+  - \v - enter+tab jeb jauna rindkopa
+  - \r - izdzēš rindu
   
