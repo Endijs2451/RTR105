@@ -58,17 +58,12 @@ Strādāsim Linux operētājsistēmā
    Saveino repozitoriju ar termināli/datoru: **git clone https://github.com/Endijs2451/RTR105_**
    
   ### C program komandas  
-   -  nano first.c
-   -  gcc first.c 
-   -  echo $?
-   - ./a.out
-   - cat first.c 
-   - cat a.out 
-   - gcc first.c first.out
-   - gcc first.c -o  first.out 
-   - ./first.out
-   - diff first.out first_with_comments.out 
-   - gcc -Wall -save-temps second.c -o second.out 
+   - **nano first.c** - _izveido skript failu_
+   - **gcc first.c** - _automātiski izveido nepieicešamos trigger failus_ 
+   - **echo $?** - _pārbauda darbības iznākumu_
+   - **./a.out** - _izpilda izpildāmo failu_
+   - **cat first.c** -_izvada faila saturu TXT_
+   - **gcc -Wall -save-temps second.c -o second.out** -_izpilda darbību pārdēvējot izpildāmo failu_
 
   ### Pozicionālās sistēmas:
   - BIN 0,1 - 2
