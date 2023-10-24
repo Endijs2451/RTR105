@@ -46,12 +46,12 @@ Strādāsim Linux operētājsistēmā
   ## 3.nodarbība  
   
   ### Sript komandas  
-   - **whereis pwd** - norāda kur atrodas pwd
-   - **echo $PATH** - parāda ceļu 
-   - **nano mans_pirmais_shell_skripts.sh** - radīt/rediģet pirmo skript failu
-   - **mv mans_pirmais_shell_skripts.sh  /bin/** - pārvieto failu  uz mapi
-   - **chmod 754 git upload** - pārveido prioritāti ar skaitīšanas sistēmu failam
-   - **PATH=$PATH:~** - nomaina galveno path
+   - **whereis pwd** - _norāda kur atrodas pwd_
+   - **echo $PATH** - _parāda ceļu_ 
+   - **nano mans_pirmais_shell_skripts.sh** - _radīt/rediģet pirmo skript failu_
+   - **mv mans_pirmais_shell_skripts.sh  /bin/** - _pārvieto failu  uz mapi_
+   - **chmod 754 git upload** - _pārveido prioritāti ar skaitīšanas sistēmu failam_
+   - **PATH=$PATH:~** - _nomaina galveno path_
        
   ## 4.nodarbība 
     
